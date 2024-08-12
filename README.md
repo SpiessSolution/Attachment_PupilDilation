@@ -120,7 +120,7 @@ conda env create -f environment.yml
 The compute environment for R can be replicated by installing the libraries specified in `R_environment.txt`.
 
 ## Application
-
+When you make use of a anaconda as a virtual environment manager and the environment has been created, you need to activate it before running the code. Activating the environment can be done using `conda activate pupil_dilation`.
 The source code is located in the `src` directory of the repository. The python files should be executed in the following order manually:
 
 1. 001_process_single_subject_data.py
