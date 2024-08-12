@@ -2,8 +2,6 @@
 
 The repository contains the source code for the processing and analysis of the data communicated in the research paper:
 
-
-
 **Attachment is in the Pupil of the Beholder: A Pupillometry Study on Emotion Processing**
 
 **Stefania V. Vacaru**, Theodore E.A. Waters, Sabine Hunnius
@@ -17,13 +15,14 @@ The repository contains the source code for the processing and analysis of the d
 
 [ORCID](https://orcid.org/0000-0001-6897-2963)
 
-
 # Introduction
 
 The repository contains the source code for
 
 1. Processing the raw eye tracker data, stimulus trigger data, and stimuli
 2. Analysing the group-level data
+
+More information about each script does can be found inside the script.
 
 ## Processing raw eye tracker data
 
@@ -34,13 +33,70 @@ The eye tracker data is subsequently segmented with the help of trigger files th
 
 Statistical analyses primarily involve creating multiple different mixed effect models.
 
+# Files and directories
+
+
+```markdown
+# Attachment_PupilDilation
+
+* [data/](./Attachment_PupilDilation/data)
+  * [external/](./Attachment_PupilDilation/data/external)
+    * [adults/](./Attachment_PupilDilation/data/external/adults)
+      * [eyetracker/](./Attachment_PupilDilation/data/external/adults/eyetracker)
+        * [eyetracker_schema.json](./Attachment_PupilDilation/data/external/adults/eyetracker/eyetracker_schema.json)
+        * [readme.md](./Attachment_PupilDilation/data/external/adults/eyetracker/readme.md)
+      * [stimfiles/](./Attachment_PupilDilation/data/external/adults/stimfiles)
+        * [readme.md](./Attachment_PupilDilation/data/external/adults/stimfiles/readme.md)
+        * [stimfile_schema.json](./Attachment_PupilDilation/data/external/adults/stimfiles/stimfile_schema.json)
+      * [readme.md](./Attachment_PupilDilation/data/external/adults/readme.md)
+    * [Pupilproject_behdata.csv](./Attachment_PupilDilation/data/external/Pupilproject_behdata.csv)
+    * [Pupilproject_behdata_schema.json](./Attachment_PupilDilation/data/external/Pupilproject_behdata_schema.json)
+  * [final/](./Attachment_PupilDilation/data/final)
+    * [adults_final_data.xlsx](./Attachment_PupilDilation/data/final/adults_final_data.xlsx)
+    * [readme.md](./Attachment_PupilDilation/data/final/readme.md)
+  * [processed/](./Attachment_PupilDilation/data/processed)
+    * [readme.md](./Attachment_PupilDilation/data/processed/readme.md)
+    * [stimulus_luminance_values.xlsx](./Attachment_PupilDilation/data/processed/stimulus_luminance_values.xlsx)
+  * [stimuli/](./Attachment_PupilDilation/data/stimuli)
+    * [readme.md](./Attachment_PupilDilation/data/stimuli/readme.md)
+* [notebooks/](./Attachment_PupilDilation/notebooks)
+  * [006_visualizations.ipynb](./Attachment_PupilDilation/notebooks/006_visualizations.ipynb)
+  * [readme.md](./Attachment_PupilDilation/notebooks/readme.md)
+* [reports/](./Attachment_PupilDilation/reports)
+  * [figures/](./Attachment_PupilDilation/reports/figures)
+    * [adults/](./Attachment_PupilDilation/reports/figures/adults)
+      * [Dismissing_int.png](./Attachment_PupilDilation/reports/figures/adults/Dismissing_int.png)
+      * [Preoccupied_int.png](./Attachment_PupilDilation/reports/figures/adults/Preoccupied_int.png)
+      * [Secure_int_separateModel.png](./Attachment_PupilDilation/reports/figures/adults/Secure_int_separateModel.png)
+      * [bc_pd_ts_condition.png](./Attachment_PupilDilation/reports/figures/adults/bc_pd_ts_condition.png)
+      * [pd_ts_condition.png](./Attachment_PupilDilation/reports/figures/adults/pd_ts_condition.png)
+    * [.gitkeep](./Attachment_PupilDilation/reports/figures/.gitkeep)
+  * [readme.md](./Attachment_PupilDilation/reports/readme.md)
+* [src/](./Attachment_PupilDilation/src)
+  * [modules/](./Attachment_PupilDilation/src/modules)
+    * [__init__.py](./Attachment_PupilDilation/src/modules/__init__.py)
+    * [readme.md](./Attachment_PupilDilation/src/modules/readme.md)
+    * [utils.py](./Attachment_PupilDilation/src/modules/utils.py)
+  * [001_preprocess_single_subject_data.py](./Attachment_PupilDilation/src/001_preprocess_single_subject_data.py)
+  * [002_aggregate_to_group_data.py](./Attachment_PupilDilation/src/002_aggregate_to_group_data.py)
+  * [003_compute_stimulus_luminance.py](./Attachment_PupilDilation/src/003_compute_stimulus_luminance.py)
+  * [004_join_datasets.py](./Attachment_PupilDilation/src/004_join_datasets.py)
+  * [005_statistical_analysis_R.ipynb](./Attachment_PupilDilation/src/005_statistical_analysis_R.ipynb)
+  * [__init__.py](./Attachment_PupilDilation/src/__init__.py)
+  * [readme.md](./Attachment_PupilDilation/src/readme.md)
+* [README.md](./Attachment_PupilDilation/README.md)
+* [R_environment.txt](./Attachment_PupilDilation/R_environment.txt)
+* [environment.yaml](./Attachment_PupilDilation/environment.yaml)
+```
+
+
+
 # Software dependencies
 
-The source code for processing the raw eye tracker data relies on Python while the statistical analyses were performed in R exclusively. 
+The source code for processing the raw eye tracker data relies on Python while the statistical analyses were performed in R exclusively.
 
 - The details of the python environment can be found in the root directory of the repository in a file called `environment.yml`.
 - The details of the R environment can be found in the root directory of the repository in a file called `R_environment.txt`.
-
 
 # How to use
 
@@ -55,13 +111,11 @@ When Anaconda is installed, a new virtual python environment can be created usin
 
 ```
 conda env create -f environment.yml
-
 ```
 
 ### R
 
 The compute environment for R can be replicated by installing the libraries specified in `R_environment`.
-
 
 ## Application
 
@@ -80,8 +134,8 @@ The folder `~notebooks/` contains a python jupyter notebook that can be used to 
 
 ## Notes
 
-Since the raw data is not included in the repository, the running the python data processing pipeline will fail because it cannot find the raw data. 
+Since the raw data is not included in the repository, the running the python data processing pipeline will fail because it cannot find the raw data.
 
-Therefore, the final dataset that is used for the statistical analysis can be found in `~data/final/`. The notebook `src/005_statistical_analysis_R.ipynb` can still be used as it only relies on that dataset. 
+Therefore, the final dataset that is used for the statistical analysis can be found in `~data/final/`. The notebook `src/005_statistical_analysis_R.ipynb` can still be used as it only relies on that dataset.
 
 For access to the raw data, please get in contact with the corresponding author of the paper.
