@@ -117,7 +117,7 @@ conda env create -f environment.yml
 
 ### R
 
-The compute environment for R can be replicated by installing the libraries specified in `R_environment`.
+The compute environment for R can be replicated by installing the libraries specified in `R_environment.txt`.
 
 ## Application
 
