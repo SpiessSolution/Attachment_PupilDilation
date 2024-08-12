@@ -4,7 +4,7 @@ The repository contains the source code for the processing and analysis of the d
 
 **Attachment is in the Pupil of the Beholder: A Pupillometry Study on Emotion Processing**
 
-**Stefania V. Vacaru**, Theodore E.A. Waters, Sabine Hunnius
+**Stefania V. Vacaru (1,2)**, Theodore E.A. Waters (1,3), Sabine Hunnius (4)
 
 1. New York University Abu Dhabi, UAE
 2. Vrije Universiteit Amsterdam, The Netherlands
