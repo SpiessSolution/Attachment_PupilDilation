@@ -136,7 +136,7 @@ The folder `~notebooks/` contains a python jupyter notebook that can be used to 
 
 ## Notes
 
-Since the raw data is not included in the repository, the running the python data processing pipeline will fail because it cannot find the raw data.
+Since the raw data is not included in the repository, executing  the python data processing pipeline will fail because it cannot find the raw data.
 
 Therefore, the final dataset that is used for the statistical analysis can be found in `~data/final/`. The notebook `src/005_statistical_analysis_R.ipynb` can still be used as it only relies on that dataset.
 
