@@ -12,8 +12,10 @@ The repository contains the source code for the processing and analysis of the d
 4. Donders Institute for Brain, Cognition and Behavior, Radboud University Nijmegen, The Netherlands
 
 **Corresponding author:** Stefania Victorita Vacaru - [vsv9970@nyu.edu](mailto:vsv9970@nyu.edu)
-
 [ORCID](https://orcid.org/0000-0001-6897-2963)
+
+
+Data analysis was performed by Dr. Lukas Spiess (Spiess Solution)
 
 # Introduction
 
