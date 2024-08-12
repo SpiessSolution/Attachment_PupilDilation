@@ -1,0 +1,125 @@
+{
+    "columns": [
+        {
+            "Column": "Participant_Nr",
+            "Data Type": "int64",
+            "Sample Data": [
+                67,
+                67,
+                67,
+                67,
+                67
+            ]
+        },
+        {
+            "Column": "Trial_Nr",
+            "Data Type": "int64",
+            "Sample Data": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "Column": "ItemID",
+            "Data Type": "int64",
+            "Sample Data": [
+                22,
+                26,
+                4,
+                22,
+                31
+            ]
+        },
+        {
+            "Column": "Emotion",
+            "Data Type": "object",
+            "Sample Data": [
+                "sad",
+                "happy",
+                "sad",
+                "neutral",
+                "happy"
+            ]
+        },
+        {
+            "Column": "Picture",
+            "Data Type": "object",
+            "Sample Data": [
+                "22-sad.jpg",
+                "26-happy.jpg",
+                "04-sad.jpg",
+                "22-neutral.jpg",
+                "31-happy.jpg"
+            ]
+        },
+        {
+            "Column": "Marker",
+            "Data Type": "int64",
+            "Sample Data": [
+                90,
+                93,
+                27,
+                87,
+                111
+            ]
+        },
+        {
+            "Column": "Beep_Start_Time",
+            "Data Type": "int64",
+            "Sample Data": [
+                28124,
+                32176,
+                36215,
+                40253,
+                44292
+            ]
+        },
+        {
+            "Column": "Fixation_Start_Time",
+            "Data Type": "int64",
+            "Sample Data": [
+                28177,
+                32229,
+                36268,
+                40306,
+                44345
+            ]
+        },
+        {
+            "Column": "Picture_Start_Time",
+            "Data Type": "int64",
+            "Sample Data": [
+                29203,
+                33242,
+                37281,
+                41319,
+                45358
+            ]
+        },
+        {
+            "Column": "ITI_Start_Time",
+            "Data Type": "int64",
+            "Sample Data": [
+                31216,
+                35255,
+                39293,
+                43332,
+                47370
+            ]
+        },
+        {
+            "Column": "iBlockNumber",
+            "Data Type": "int64",
+            "Sample Data": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        }
+    ]
+}

@@ -1,0 +1,862 @@
+{
+    "columns": [
+        {
+            "Column": "ExportDate",
+            "Data Type": "object",
+            "Sample Data": [
+                "10/23/2017",
+                "10/23/2017",
+                "10/23/2017",
+                "10/23/2017",
+                "10/23/2017"
+            ]
+        },
+        {
+            "Column": "StudioVersionRec",
+            "Data Type": "object",
+            "Sample Data": [
+                "3.0.9.425",
+                "3.0.9.425",
+                "3.0.9.425",
+                "3.0.9.425",
+                "3.0.9.425"
+            ]
+        },
+        {
+            "Column": "StudioProjectName",
+            "Data Type": "object",
+            "Sample Data": [
+                "Children_S_AQSEMG_Stefania",
+                "Children_S_AQSEMG_Stefania",
+                "Children_S_AQSEMG_Stefania",
+                "Children_S_AQSEMG_Stefania",
+                "Children_S_AQSEMG_Stefania"
+            ]
+        },
+        {
+            "Column": "StudioTestName",
+            "Data Type": "object",
+            "Sample Data": [
+                "Children",
+                "Children",
+                "Children",
+                "Children",
+                "Children"
+            ]
+        },
+        {
+            "Column": "ParticipantName",
+            "Data Type": "object",
+            "Sample Data": [
+                "A14",
+                "A14",
+                "A14",
+                "A14",
+                "A14"
+            ]
+        },
+        {
+            "Column": "RecordingName",
+            "Data Type": "object",
+            "Sample Data": [
+                "A14",
+                "A14",
+                "A14",
+                "A14",
+                "A14"
+            ]
+        },
+        {
+            "Column": "RecordingDate",
+            "Data Type": "object",
+            "Sample Data": [
+                "7/17/2017",
+                "7/17/2017",
+                "7/17/2017",
+                "7/17/2017",
+                "7/17/2017"
+            ]
+        },
+        {
+            "Column": "RecordingDuration",
+            "Data Type": "int64",
+            "Sample Data": [
+                1094514,
+                1094514,
+                1094514,
+                1094514,
+                1094514
+            ]
+        },
+        {
+            "Column": "RecordingResolution",
+            "Data Type": "object",
+            "Sample Data": [
+                "1280 x 1024",
+                "1280 x 1024",
+                "1280 x 1024",
+                "1280 x 1024",
+                "1280 x 1024"
+            ]
+        },
+        {
+            "Column": "FixationFilter",
+            "Data Type": "object",
+            "Sample Data": [
+                "Tobii Fixation Filter",
+                "Tobii Fixation Filter",
+                "Tobii Fixation Filter",
+                "Tobii Fixation Filter",
+                "Tobii Fixation Filter"
+            ]
+        },
+        {
+            "Column": "MediaName",
+            "Data Type": "object",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MediaPosX (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MediaPosY (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MediaWidth",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MediaHeight",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SegmentName",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SegmentStart",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SegmentEnd",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SegmentDuration",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SceneName",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SceneSegmentStart",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SceneSegmentEnd",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SceneSegmentDuration",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "RecordingTimestamp",
+            "Data Type": "int64",
+            "Sample Data": [
+                62,
+                78,
+                95,
+                112,
+                128
+            ]
+        },
+        {
+            "Column": "LocalTimeStamp",
+            "Data Type": "object",
+            "Sample Data": [
+                "13:29:28.992",
+                "13:29:29.009",
+                "13:29:29.025",
+                "13:29:29.042",
+                "13:29:29.059"
+            ]
+        },
+        {
+            "Column": "EyeTrackerTimestamp",
+            "Data Type": "float64",
+            "Sample Data": [
+                1500292623611847.0,
+                1500292623628513.0,
+                1500292623645162.0,
+                1500292623661828.0,
+                1500292623678494.0
+            ]
+        },
+        {
+            "Column": "MouseEventIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MouseEvent",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MouseEventX (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MouseEventY (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MouseEventX (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "MouseEventY (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "KeyPressEventIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "KeyPressEvent",
+            "Data Type": "object",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "StudioEventIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "StudioEvent",
+            "Data Type": "object",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "StudioEventData",
+            "Data Type": "object",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "ExternalEventIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "ExternalEvent",
+            "Data Type": "object",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "ExternalEventValue",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "FixationIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "SaccadeIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazeEventType",
+            "Data Type": "object",
+            "Sample Data": [
+                "Unclassified",
+                "Unclassified",
+                "Unclassified",
+                "Unclassified",
+                "Unclassified"
+            ]
+        },
+        {
+            "Column": "GazeEventDuration",
+            "Data Type": "int64",
+            "Sample Data": [
+                2498,
+                2498,
+                2498,
+                2498,
+                2498
+            ]
+        },
+        {
+            "Column": "FixationPointX (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "FixationPointY (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointIndex",
+            "Data Type": "float64",
+            "Sample Data": [
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0
+            ]
+        },
+        {
+            "Column": "GazePointLeftX (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointLeftY (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointRightX (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointRightY (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointX (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointY (ADCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointX (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointY (MCSpx)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointLeftX (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointLeftY (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointRightX (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "GazePointRightY (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "StrictAverageGazePointX (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "StrictAverageGazePointY (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "EyePosLeftX (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "EyePosLeftY (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "EyePosLeftZ (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "EyePosRightX (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "EyePosRightY (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                -28.11,
+                -28.11,
+                -28.11,
+                -28.11,
+                -28.11
+            ]
+        },
+        {
+            "Column": "EyePosRightZ (ADCSmm)",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "CamLeftX",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "CamLeftY",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "CamRightX",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "CamRightY",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "DistanceLeft",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "DistanceRight",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "PupilLeft",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "PupilRight",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        },
+        {
+            "Column": "ValidityLeft",
+            "Data Type": "float64",
+            "Sample Data": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+            ]
+        },
+        {
+            "Column": "ValidityRight",
+            "Data Type": "float64",
+            "Sample Data": [
+                4.0,
+                4.0,
+                4.0,
+                4.0,
+                4.0
+            ]
+        },
+        {
+            "Column": "Unnamed: 77",
+            "Data Type": "float64",
+            "Sample Data": [
+                NaN,
+                NaN,
+                NaN,
+                NaN,
+                NaN
+            ]
+        }
+    ]
+}

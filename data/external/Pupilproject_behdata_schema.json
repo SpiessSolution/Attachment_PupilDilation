@@ -1,0 +1,191 @@
+{
+    "columns": [
+        {
+            "Column": "Participant",
+            "Data Type": "int64",
+            "Sample Data": [
+                2,
+                4,
+                6,
+                9,
+                10
+            ]
+        },
+        {
+            "Column": "Age",
+            "Data Type": "object",
+            "Sample Data": [
+                "19,854893908282",
+                "31,8110882956879",
+                "35,4223134839151",
+                "21,8809034907598",
+                "25,9520876112252"
+            ]
+        },
+        {
+            "Column": "Gender",
+            "Data Type": "int64",
+            "Sample Data": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ]
+        },
+        {
+            "Column": "Security_number",
+            "Data Type": "int64",
+            "Sample Data": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "Column": "Security",
+            "Data Type": "int64",
+            "Sample Data": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "Column": "Secure",
+            "Data Type": "object",
+            "Sample Data": [
+                "4,5",
+                "7",
+                "3,5",
+                "4,5",
+                "3"
+            ]
+        },
+        {
+            "Column": "Preoccupied",
+            "Data Type": "object",
+            "Sample Data": [
+                "-4",
+                ",5",
+                ",5",
+                "-1",
+                "-,5"
+            ]
+        },
+        {
+            "Column": "Dismissing",
+            "Data Type": "object",
+            "Sample Data": [
+                "2",
+                "1",
+                "0",
+                "-1,5",
+                "2"
+            ]
+        },
+        {
+            "Column": "Fearful",
+            "Data Type": "object",
+            "Sample Data": [
+                "-2,5",
+                "-5",
+                "-2",
+                "-2",
+                "-2"
+            ]
+        },
+        {
+            "Column": "Noticing",
+            "Data Type": "object",
+            "Sample Data": [
+                "4",
+                "4",
+                "3,5",
+                "2,5",
+                "3,75"
+            ]
+        },
+        {
+            "Column": "NotDistracting",
+            "Data Type": "object",
+            "Sample Data": [
+                "2,66666666666667",
+                "2",
+                "3,33333333333333",
+                "1,66666666666667",
+                "2"
+            ]
+        },
+        {
+            "Column": "NotWorrying",
+            "Data Type": "object",
+            "Sample Data": [
+                "3,33333333333333",
+                "3,33333333333333",
+                "1",
+                "2",
+                "1,33333333333333"
+            ]
+        },
+        {
+            "Column": "AttentionRegulation",
+            "Data Type": "object",
+            "Sample Data": [
+                "3,85714285714286",
+                "4,28571428571429",
+                "2,28571428571429",
+                "2,28571428571429",
+                "4,28571428571429"
+            ]
+        },
+        {
+            "Column": "EmotionalAwareness",
+            "Data Type": "object",
+            "Sample Data": [
+                "4",
+                "4,2",
+                "4",
+                "3,4",
+                "3,8"
+            ]
+        },
+        {
+            "Column": "SelfRegulation",
+            "Data Type": "object",
+            "Sample Data": [
+                "3,75",
+                "4,25",
+                "3,25",
+                "1,5",
+                "3,75"
+            ]
+        },
+        {
+            "Column": "BodyListening",
+            "Data Type": "object",
+            "Sample Data": [
+                "3,33333333333333",
+                "3,33333333333333",
+                "2",
+                "1,66666666666667",
+                "3"
+            ]
+        },
+        {
+            "Column": "Trusting",
+            "Data Type": "object",
+            "Sample Data": [
+                "5",
+                "4,33333333333333",
+                "5",
+                "3",
+                "4,66666666666667"
+            ]
+        }
+    ]
+}

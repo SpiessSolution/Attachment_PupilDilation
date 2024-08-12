@@ -1,0 +1,26 @@
+name: pupil_dilation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - jpeg
+  - jupyter=1.0.0
+  - matplotlib
+  - numpy=1.24.3
+  - openjpeg
+  - openpyxl
+  - pandas=2.0.3
+  - pandas_schema=0.3.5
+  - pillow
+  - pip
+  - plotly
+  - pyarrow
+  - python=3.11.7
+  - scipy=1.11.4
+  - seaborn=0.12.2
+  - pip:
+      - joblib
+      - statsmodels==0.14.1
+
+prefix: /Users/lukasspiess/anaconda3/envs/pupil_dilation
