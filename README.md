@@ -15,7 +15,7 @@ The repository contains the source code for the processing and analysis of the d
 [ORCID](https://orcid.org/0000-0001-6897-2963)
 
 
-Data analysis was performed by Dr. Lukas Spiess (**Spiess Solution**, lukas@spiess-solution.com)
+Data analysis was performed by Dr. Stefania Vacaru with support from Dr. Lukas Spiess.
 
 # Introduction
 
