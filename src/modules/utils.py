@@ -1139,7 +1139,7 @@ def prepare_dataset(df: pd.DataFrame, split_time_ms: int = 1250) -> pd.DataFrame
     Parameters:
     - df (pd.DataFrame): The input DataFrame containing the dataset to be processed.
     - split_time_ms (int, optional): The time in milliseconds used to split the "RelativeTime_ms"
-      into "early" or "late" categories. Defaults to 800 ms.
+      into "early" or "late" categories. Defaults to 1250 ms.
 
     Returns:
     - pd.DataFrame: The processed DataFrame after applying the filters and transformations.
@@ -1172,7 +1172,7 @@ def aggregate_single_subject_data(df: pd.DataFrame, index_cols) -> pd.DataFrame:
       by the index_cols, with the group identifiers (index_cols) and the aggregated means.
     """
     agg_df = (
-        df.groupby(index_cols)["pupilsize_baseline_corrected"]
+        df.groupby(index_cols)[["pupilsize_baseline_corrected", "PupilMean_corrected", "FixAvg_PupilMean_corr"]]
         .aggregate(np.mean)
         .reset_index()
     )
