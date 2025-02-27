@@ -54,7 +54,11 @@ if __name__ == '__main__':
 
     group_df = pd.concat(dataset_aggregator)  # execute
     group_df = group_df.rename(
-        columns={"pupilsize_baseline_corrected": f"avg_pd_bc_post{SPLIT_TIME_MS}ms"}
+        columns={
+            "pupilsize_baseline_corrected": f"avg_pd_bc_post{SPLIT_TIME_MS}ms",
+            "PupilMean_corrected":f"avg_pd_post{SPLIT_TIME_MS}ms",
+            "FixAvg_PupilMean_corr": "avg_pd_fixation",
+            }
     )
 
     # Save the aggregated data
