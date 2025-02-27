@@ -1,1 +1,6 @@
-.DS_store
+.
+*.txt
+*.tsv
+*.DS_Store
+*.parquet
+*.pyc
